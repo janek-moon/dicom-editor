@@ -46,8 +46,11 @@ Desktop DICOM tag editor built with Python, PySide6, and pydicom.
 
 When adding a tag, the app can auto-add required tags by Innolitics module rules.
 
-- Base behavior: module Type 1/2 required tags are auto-added.
-- Conditional behavior implemented:
+- Base behavior:
+  - Module Type 1/2 required tags are auto-added (broad coverage via Innolitics-derived module mapping).
+- Conditional behavior:
+  - Generic 1C/2C condition parsing is **not** fully implemented yet.
+  - Currently implemented conditional case:
   - If `Approval Status (300E,0002)` is `APPROVED` or `REJECTED`, auto-add:
     - `Review Date (300E,0004)`
     - `Review Time (300E,0005)`
