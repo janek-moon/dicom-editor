@@ -3,27 +3,7 @@
 Desktop DICOM tag editor built with Python, PySide6, and pydicom.
 
 ## Demo Video
-
-<!-- Use one of the blocks below -->
-
-<!-- Local video (full width) -->
-<!--
-<video width="100%" controls>
-  <source src="./assets/demo.mp4" type="video/mp4" />
-</video>
--->
-
-<!-- YouTube embed (full width) -->
-<!--
-<iframe
-  width="100%"
-  height="480"
-  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-  title="Demo Video"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
--->
+<image src="https://github.com/user-attachments/assets/443f0673-131a-43bc-b682-48a3d45ef889" alt="Demo Video" width="100%">
 
 ## Minimum Requirements
 
